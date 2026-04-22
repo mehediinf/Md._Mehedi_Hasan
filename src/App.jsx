@@ -2,21 +2,7 @@ import './App.css'
 
 function App() {
   return (
-    <div className="app">
-      <nav className="navbar">
-        <div className="nav-container">
-          <h1 className="nav-logo"><i className="fas fa-code"></i> Md. Mehedi Hasan</h1>
-          <ul className="nav-menu">
-            <li><a href="#home"><i className="fas fa-home"></i> Home</a></li>
-            <li><a href="#about"><i className="fas fa-user"></i> About</a></li>
-            <li><a href="#experience"><i className="fas fa-briefcase"></i> Experience</a></li>
-            <li><a href="#projects"><i className="fas fa-project-diagram"></i> Projects</a></li>
-            <li><a href="#skills"><i className="fas fa-tools"></i> Skills</a></li>
-            <li><a href="#contact"><i className="fas fa-envelope"></i> Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-
+    <div className="app"> 
       <section id="home" className="hero">
         <div className="hero-content">
           <img src="https://avatars.githubusercontent.com/u/145797601?v=4" alt="Md. Mehedi Hasan" className="profile-image" />
@@ -181,8 +167,6 @@ function App() {
                 <li><i className="fas fa-cubes"></i> BLoC</li>
                 <li><i className="fas fa-share-alt"></i> Provider</li>
                 <li><i className="fas fa-wind"></i> GetX</li>
-                <li><i className="fas fa-shield-alt"></i> SOLID Principles</li>
-                <li><i className="fas fa-cogs"></i> Clean Architecture</li>
                 <li><i className="fas fa-map-marker-alt"></i> Google Maps Integration</li>
               </ul>
             </div>
