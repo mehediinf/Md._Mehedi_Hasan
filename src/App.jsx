@@ -160,7 +160,7 @@ function App() {
               </ul>
             </div>
             <div className="skill-category">
-              <h3><i className="fas fa-brain"></i> Architecture & State Management</h3>
+              <h3><i className="fas fa-brain"></i> Architecture & State</h3>
               <ul>
                 <li><i className="fas fa-sitemap"></i> MVVM</li>
                 <li><i className="fas fa-layer-group"></i> MVP</li>
@@ -187,7 +187,7 @@ function App() {
       </section>
 
       <footer className="footer">
-        <p><i className="fas fa-copyright"></i> 2026 Md. Mehedi Hasan. Built with <i className="fas fa-heart"></i> using React & Vite.</p>
+        <p><i className="fas fa-copyright"></i> 2026 Md. Mehedi Hasan. Built with using React & Vite.</p>
       </footer>
     </div>
   )
